@@ -20,8 +20,8 @@ This repository contains an exploratory data analysis project on the **Major Saf
 
 - **Louis Chuk**
 - **Stephen Fong**
-- **Mychelle**
-- **Nithursan**
+- **Mychelle Wong**
+- **Nithursan Elamuhilan**
 
 ## 📋 Task List & Workflow
 
