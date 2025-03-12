@@ -64,3 +64,17 @@ This repository contains an exploratory data analysis project on the **Major Saf
    ```bash
    git clone https://github.com/your_username/transit-safety-insights.git
    cd transit-safety-insights
+
+2. **Download the Dataset:**
+
+A CLI script has been provided to download the dataset into the `data` folder automatically.
+
+### Using the CLI Script
+
+**Script Location:**  
+The download script is located at `scripts/download_data.py`.
+
+**Run the script using python:**  
+```bash
+python scripts/download_data.py
+
