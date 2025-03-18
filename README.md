@@ -26,10 +26,6 @@ This repository contains an exploratory data analysis project on the **Major Saf
 ## Dataset ##
 This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
 
-## File Contents
-
-- **Major_Safety_Events_20250313.csv**: Main dataset in CSV format.
-
 ### Key Columns (list what was kept*)
 
 | Column Name                                | Description                                                                                                     |
