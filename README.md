@@ -30,7 +30,7 @@ This dataset consolidates transit-safety reports from multiple agencies. Each re
 
 - **Major_Safety_Events_20250313.csv**: Main dataset in CSV format.
 
-### Key Columns
+### Key Columns (list what was kept*)
 
 | Column Name                                | Description                                                                                                     |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -45,8 +45,6 @@ This dataset consolidates transit-safety reports from multiple agencies. Each re
 | `Location Type`                            | General location classification (e.g., Intersection, Stop, Station).                                             |
 | `Transit Worker Assault Flag`              | Indicator for assaults on transit personnel.                                                                     |
 | `Other Transit Vehicle Action Description` | Additional details about the vehicle's movement (e.g., “Side Impact,” “Rear-ended”).                             |
-
-## Getting Started
 
 
 ## 📋 Task List & Workflow
