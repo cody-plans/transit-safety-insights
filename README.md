@@ -6,15 +6,23 @@
 
 ## 📚 Project Overview
 
-This repository contains an exploratory data analysis project on the **Major Safety Events** dataset from [data.transportation.gov](https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9/about_data). Our goal is to explore and analyze public transit safety incidents, uncover patterns, and build predictive models.
+This project seeks to uncover the key predictors of major safety incidents that occur in the US. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
 
 ### 🔍 Research Questions
+What factors are most predictive of a major safety incident occurring?
 
-- **Regression:**  
-  Do factors like time of day, weather conditions, and type of transit service predict the severity of safety incidents (e.g., number of injuries or fatalities)?
+We will use classification modeling to assess which variables are most indicative of major incidents, and may also explore regression techniques to understand the severity or frequency of incidents, depending on time and data availability. Techniques like Principal Component Analysis (PCA) will help with dimensionality reduction and model efficiency. The dataset that will be used to train this model is a major safety event that is provided by the US Department of Transportation with events from 2014-2024.
 
-- **Classification:**  
-  What factors are most predictive of a major safety incident occurring?
+#### Objectives
+- Identify critical factors leading to major safety incidents
+- Inform safety improvements and resource deployment
+- Support planning to minimize transit disruptions and improve public safety
+
+#### Assumptions & Risks
+- Dataset has sufficient quality and structure to train accurate models
+- Risk of incomplete or missing data that could affect predictive accuracy
+- No unstructured data is currently being processed that could enhance the model
+
 
 ## 👥 Team Members
 
