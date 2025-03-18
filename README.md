@@ -23,6 +23,26 @@ This repository contains an exploratory data analysis project on the **Major Saf
 - **Mychelle Wong**
 - **Nithursan Elamuhilan**
 
+## Dataset ##
+This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
+
+File Contents
+Major_Safety_Events_20250313.csv: Main dataset in CSV format.
+Key Columns
+Column Name	Description
+Event Date	Date the incident occurred.
+Event Type	Type of incident (e.g., Collision, Derailment, Fire).
+Transit Vehicle Action	Action of the transit vehicle at the time (e.g., Going Straight, Stopped, Making a turn).
+Non-Transit Vehicle Action List	Action(s) of other vehicle(s) involved (e.g., Going straight, Changing lanes).
+Total Injuries	Number of injuries caused by the event.
+Total Fatalities	Number of fatalities caused by the event.
+Property Damage	Estimated property damage amount.
+Weather	Weather conditions (e.g., Clear, Rain).
+Location Type	General location classification (e.g., Intersection, Stop, Station).
+Transit Worker Assault Flag	Indicator for assaults on transit personnel.
+Other Transit Vehicle Action Description	Additional details about the vehicle's movement (e.g., “Side Impact,” “Rear-ended”).
+
+
 ## 📋 Task List & Workflow
 
 1. **Data Acquisition:**  
