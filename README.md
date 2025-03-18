@@ -23,7 +23,7 @@ This repository contains an exploratory data analysis project on the **Major Saf
 - **Mychelle Wong**
 - **Nithursan Elamuhilan**
 
-## Dataset ##
+## Data Description ##
 This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
 
 ### Key Columns (list what was kept*)
@@ -42,6 +42,11 @@ This dataset consolidates transit-safety reports from multiple agencies. Each re
 | `Transit Worker Assault Flag`              | Indicator for assaults on transit personnel.                                                                     |
 | `Other Transit Vehicle Action Description` | Additional details about the vehicle's movement (e.g., “Side Impact,” “Rear-ended”).                             |
 
+## Methodology
+
+## Findings
+
+## Conclusion
 
 ## 📋 Task List & Workflow
 
