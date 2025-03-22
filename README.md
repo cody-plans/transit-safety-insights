@@ -86,7 +86,29 @@ This dataset consolidates transit-safety reports from multiple agencies. Each re
 
 ## Methodology
 
+The following machine learning techniques / classifier models were used:
+
+Ensemble Tree-Based Models (via scikit-learn):
+   Bagging(with Decision Trees)
+   Random Forest
+   Extra Trees
+Model Tuning
+GridSearchCV (determine best model settings with cross-validation)
+
+
 ## Findings
+
+Model Differences:
+
+Extra Trees outperformed Random Forest and Bagging Classifier, likely due to its more reliable feature selection and ability to avoid overfitting. Extra Trees performed better (with an ROC score of 0.87) due to its lower variance and ability to handle complex data better, while Random Forest has a lower ROC of 0.67, likely due to overfitting or its struggle with the dataset’s complexity.
+
+The differences in feature importance across the models arise from their architecture, randomness in feature selection, and how they handle correlations and overfitting. Extra Trees provides more reliable and balanced feature rankings due to its highly randomized approach. Note Extra Trees is also called “Extremely Randomized Trees”.
+
+Random Forest and Bagging Classifier both use bootstrap sampling and decision trees, but differ in how features are selected. Random Forest picks a random subset of features at each split, introducing randomness in feature importance. Bagging uses all features at each split, making feature selection more stable. Extra Trees adds more randomness by selecting random splits for features,, making it more likely to capture feature importance with lower variance and overfitting.
+
+In the case of imbalanced data, Extra Trees is more robust, potentially finding stronger predictors for minority classes, whereas Random Forest might bias toward majority class features. For example, for bagging classifiers, data need to be stratified before they were split for training / testing in order to fine tune its hyperparameters.
+
+Alternative models: Permutation Importance could be used to evaluate feature importance as it is less prone to biases caused by impurity-based methods in models like Random Forest, i.e. importances derived from impurity-based methods can be high even for features that are not predictive of the target variable.
 
 ## Conclusion
 
