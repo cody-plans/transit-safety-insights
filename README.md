@@ -18,9 +18,9 @@ As part of the Machine Learning Certificate program at the University of Toronto
 - **Nithursan Elamuhilan**
 
 ## 📚 Project Overview
-1. **Data Acquisition:**  
-2. **Data Cleaning:**  
-3. **Data Processing & Feature Engineering:**  
+1. [💼 Business Case](#business-case)
+2. [📶 Data Description](#data-description)
+3. [📋 Methodology](#methodology)
 4. **Exploratory Data Analysis (EDA):**  
 5. **Model Building:**  
 6. **Model Fine Tuning & Evaluation:**  
@@ -51,7 +51,7 @@ The dataset used in this analysis is sourced from the U.S. Department of Transpo
 - **Python:** Data cleaning, processing, analysis, and model building.
 - **SQL:** Data querying and management.
 
-## Data Description ##
+## 📶 Data Description ##
 The National Transit Database maintained by the Federal Transit A requires that transit authorities complete a “Major Event Report” when significant safety events occur
 
 This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
@@ -118,7 +118,7 @@ The download script is located at `scripts/download_data.py`.
 python scripts/download_data.py
 ```
 
-## Methodology
+## 📋 Methodology
 
 ## Findings
 ### Model Evaluation
