@@ -135,9 +135,9 @@ For the purpose of this project, a major safety event is defined as any incident
 | **Transit Vehicle Manufacturer**         | Identifies the manufacturer of the transit vehicle for collisions.                                                                                                                                                                                                                     |
 | **Total Serious Injuries**               | Sum of the count of all serious injuries for the given event.                                                                                                                                              
 
-A CLI script has been provided to download the dataset into the `data` folder automatically.
 
 ### Using the CLI Script
+A CLI script has been provided to download the dataset into the `data` folder automatically.
 
 **Script Location:**  
 The download script is located at `scripts/download_data.py`.
@@ -172,6 +172,7 @@ python scripts/download_data.py
   - Random Forests
   - K-Nearest Neighbors
   - Neural Networks
+- Address class imbalance
 - Used GridSearchCV for hyperparameter tuning and cross-validation
 
 ### Evaluation & Interpretation
