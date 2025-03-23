@@ -21,11 +21,8 @@ As part of the Machine Learning Certificate program at the University of Toronto
 1. [Business Case](#business-case)
 2. [Data Description](#data-description)
 3. [Methodology](#methodology)
-4. Exploratory Data Analysis
-5. Understanding Data and Method of Collection
-6. Data preprocessing and Feature Engineering
-7. Modelling Approach
-8. Findings
+5. [Findings](#findings)
+6. [Insights](#insights)
 
 ## Business Case ##
 Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
@@ -121,7 +118,7 @@ python scripts/download_data.py
 
 ## Methodology ##
 
-## Findings
+## Findings ##
 ### Model Evaluation
 Extra Trees outperformed Bagging Classifier and Random Forest, likely due to its more reliable feature selection and ability to avoid overfitting. Extra Trees achieved the highest ROC-AUC score (0.87) compared to 0.81 for the Bagging Classifier and Random Forest 0.67. This stronger performance may be attributed to Extra Trees’ randomized split selection strategy which tends to reduce variance and overfitting particularly with complex data or imbalance datasets. Random Forest has the lowest ROC-AUC score of the three models, likely due to overfitting or its inability to address the dataset’s complexity.
 
@@ -135,7 +132,7 @@ Imbalanced settings, Extra Trees may provide more robust performance by identify
 	
 When discussing feature importance, impurity-based models (used by the three in our project) can be biased, particularly in the case of irrelevant or correlated features. As an alternative, permutation importance could be used to evaluate feature importance. It evaluates the decrease in a model’s importance when a feature’s values are randomly shuffled - it is less prone to biases caused by impurity-based methods in models. Importance derived from impurity-based methods can be high even for features that are not predictive of the target variable. 
 
-### Insights
+## Insights
 ![image](https://github.com/user-attachments/assets/67ad9b54-d851-445c-9112-42601c98c386)
 
 
