@@ -108,6 +108,7 @@ The download script is located at `scripts/download_data.py`.
 **Run the script using python:**  
 ```bash
 python scripts/download_data.py
+```
 
 ## Methodology
 
