@@ -1,18 +1,29 @@
-# 🚀 Transit Safety Insights
+# 🚀 Transit Safety Insights on Major Safety Events in the US
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-supported-informational.svg)](https://en.wikipedia.org/wiki/SQL)
 
+As part of the Machine Learning Certificate program at the University of Toronto’s Data Science Institute, this project allowed us to apply the skills and knowledge gained throughout the program to a real-world problem. We focused on analyzing major safety events within U.S. transit systems to uncover key risk factors and generate actionable insights. This end-to-end project involved data preparation, applying machine learning techniques, and delivering findings to support informed decision-making for stakeholders aiming to enhance transit safety nationwide.
+
+## 👥 Team Members
+
+- **Louis Chuk**
+- **Stephen Fong**
+- **Mychelle Wong**
+- **Nithursan Elamuhilan**
+
 
 ## 📚 Project Overview
 
-This project seeks to uncover the key predictors of major safety incidents that occur in the US. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
+Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
 
 ### 🔍 Research Questions
 What factors are most predictive of a major safety incident occurring?
 
-We will use classification modeling to assess which variables are most indicative of major incidents, and may also explore regression techniques to understand the severity or frequency of incidents, depending on time and data availability. Techniques like Principal Component Analysis (PCA) will help with dimensionality reduction and model efficiency. The dataset that will be used to train this model is a major safety event that is provided by the US Department of Transportation with events from 2014-2024.
+To address this, we will implement classification models to determine which variables most strongly indicate the likelihood of a major incident. Time permitting, we may also explore regression models to analyze incident severity or frequency. Techniques such as Principal Component Analysis (PCA) will be employed to reduce dimensionality and improve model performance.
+
+The dataset used in this analysis is sourced from the U.S. Department of Transportation and contains records of major safety events from 2014 to 2024.
 
 #### Objectives
 - Identify critical factors leading to major safety incidents
@@ -25,14 +36,11 @@ We will use classification modeling to assess which variables are most indicativ
 - No unstructured data is currently being processed that could enhance the model
 
 
-## 👥 Team Members
 
-- **Louis Chuk**
-- **Stephen Fong**
-- **Mychelle Wong**
-- **Nithursan Elamuhilan**
 
 ## Data Description ##
+The National Transit Database maintained by the Federal Transit A requires that transit authorities complete a “Major Event Report” when significant safety events occur
+
 This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
 
 ### Key Columns (list what was kept*)
