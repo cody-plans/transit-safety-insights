@@ -150,17 +150,17 @@ python scripts/download_data.py
 ## Methodology ##
 
 1. Data Acquisition and Exploratory Data Analysis:
-- Download and inspect the dataset from the source.
+  - Download and inspect the dataset from the source.
 2. Data Cleaning:
-- Handle missing values, data inconsistencies, and convert data types.
-- Remove or impute outliers.
+  - Handle missing values, data inconsistencies, and convert data types.
+  - Remove or impute outliers.
 3. Data Processing & Feature Engineering:
-- Extract relevant features (e.g., time of day, weather conditions, transit type).
-- Create new variables to capture trends and patterns through feature engineering (e.g. population density) from census data
+  - Extract relevant features (e.g., time of day, weather conditions, transit type).
+  - Create new variables to capture trends and patterns through feature engineering (e.g. population density) from census data
 4. Model Building:
-- Classification Models: Identify key factors predicting major safety incidents.
-- Model Fine Tuning & Evaluation:
-- Apply cross-validation and hyperparameter tuning.
+  - Classification Models: Identify key factors predicting major safety incidents.
+  - Model Fine Tuning & Evaluation:
+  - Apply cross-validation and hyperparameter tuning.
 5. Evaluate model performance using appropriate metrics.
 
 ## Findings ##
