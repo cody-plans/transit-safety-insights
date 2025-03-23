@@ -70,10 +70,10 @@ The dataset includes a wide range of reportable safety incidents, such as:
 
 Reporting Thresholds
 Events are reported based on specific criteria, including:
--Fatalities (including suicides), confirmed within 30 days
--Injuries requiring immediate transport from the scene
--Property damage of $25,000 or more
--Evacuations for life-safety reasons
+- Fatalities (including suicides), confirmed within 30 days
+- Injuries requiring immediate transport from the scene
+- Property damage of $25,000 or more
+- Evacuations for life-safety reasons
 - Significant collisions, especially those involving:
    - Injuries or fatalities
    - Towing of vehicles
