@@ -50,9 +50,40 @@ The dataset used in this analysis is sourced from the U.S. Department of Transpo
 - **SQL:** Data querying and management.
 
 ## Data Description ##
-The National Transit Database maintained by the Federal Transit A requires that transit authorities complete a “Major Event Report” when significant safety events occur
+The dataset is sourced from the National Transit Database (NTD), which collects Safety and Security (S&S) event data from U.S. transit agencies. Reporting is mandatory for:
 
-This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
+- Urban transit agencies operating more than 30 vehicles in maximum service
+- All agencies providing rail transit services
+
+These agencies submit:
+- Individual reports for major safety events
+- Monthly summaries of non-major events by transit mode
+
+Event Types Captured
+The dataset includes a wide range of reportable safety incidents, such as:
+- Collisions (vehicle, pedestrian, etc.)
+- Fires requiring suppression
+- Derailments (mainline and yard, including non-revenue vehicles)
+- Hazardous material spills
+- Natural disasters (Acts of God)
+- Other significant events that meet reporting thresholds (excluding single-person medical transport)
+
+Reporting Thresholds
+Events are reported based on specific criteria, including:
+-Fatalities (including suicides), confirmed within 30 days
+-Injuries requiring immediate transport from the scene
+-Property damage of $25,000 or more
+-Evacuations for life-safety reasons
+- Significant collisions, especially those involving:
+   - Injuries or fatalities
+   - Towing of vehicles
+   - Suicides or attempts involving transit vehicles
+
+Definition of a Major Safety Event
+For the purpose of this project, a major safety event is defined as any incident that involves at least one of the following:
+- A fatality
+- An injury (any type)
+- Property damage ≥ $25,000 USD
 
 ### Predictor Variables
 
