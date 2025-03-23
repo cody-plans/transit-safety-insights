@@ -59,7 +59,7 @@ These agencies submit:
 - Individual reports for major safety events
 - Monthly summaries of non-major events by transit mode
 
-Event Types Captured
+### Event Types Captured
 The dataset includes a wide range of reportable safety incidents, such as:
 - Collisions (vehicle, pedestrian, etc.)
 - Fires requiring suppression
@@ -68,7 +68,7 @@ The dataset includes a wide range of reportable safety incidents, such as:
 - Natural disasters (Acts of God)
 - Other significant events that meet reporting thresholds (excluding single-person medical transport)
 
-Reporting Thresholds
+### Reporting Thresholds
 Events are reported based on specific criteria, including:
 - Fatalities (including suicides), confirmed within 30 days
 - Injuries requiring immediate transport from the scene
@@ -79,7 +79,7 @@ Events are reported based on specific criteria, including:
    - Towing of vehicles
    - Suicides or attempts involving transit vehicles
 
-Definition of a Major Safety Event
+### Definition of a Major Safety Event
 For the purpose of this project, a major safety event is defined as any incident that involves at least one of the following:
 - A fatality
 - An injury (any type)
