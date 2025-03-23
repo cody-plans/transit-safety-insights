@@ -178,7 +178,7 @@ Driving behavior plays a crucial role in transit safety. These findings suggest 
 - Advanced driver assistance systems (ADAS)
 - Operator re-training and performance reviews
 
-####Actionable Insight:
+#### Actionable Insight:
 Transit agencies can implement real-time monitoring and targeted training to address unsafe driving habits before incidents occur.
 
 ### 2. Population Density
@@ -195,7 +195,7 @@ Urban environments require tailored safety strategies that address potential iss
 City planners and transit authorities should prioritize high-density corridors for safety upgrades and risk-mitigation technologies.
 
 ### 3. Time and Day of the Week
-####What We Found:
+#### What We Found:
 The timing of incidents—by hour, day, and possibly season—was a significant predictor of event likelihood.
 
 #### Why It Matters:
