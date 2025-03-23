@@ -4,6 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-supported-informational.svg)](https://en.wikipedia.org/wiki/SQL)
 
+
 ## 📚 Project Overview
 
 This project seeks to uncover the key predictors of major safety incidents that occur in the US. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
@@ -135,6 +136,9 @@ When discussing feature importance, impurity-based models (used by the three in 
 
 - **Python:** Data cleaning, processing, analysis, and model building.
 - **SQL:** Data querying and management.
+
+## University of Toronto | Data Science Institute
+- Our project summarized in 5 minutes is available [here](https://docs.google.com/presentation/d/1demXXfDs7kidJ94kQZ-SZ2-DHwst0ReC_PmsrZXU8-c/edit?usp=sharing)
 
 ## ⚙️ Getting Started
 
