@@ -20,6 +20,8 @@ As part of the Machine Learning Certificate program at the University of Toronto
 
 ## 📚 Project Overview
 
+## 💼 Business Case
+
 Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
 
 ### 🔍 Research Questions
@@ -39,6 +41,10 @@ The dataset used in this analysis is sourced from the U.S. Department of Transpo
 - Risk of incomplete or missing data that could affect predictive accuracy
 - No unstructured data is currently being processed that could enhance the model
 
+## 🛠️ Tech Stack
+
+- **Python:** Data cleaning, processing, analysis, and model building.
+- **SQL:** Data querying and management.
 
 
 
@@ -46,6 +52,8 @@ The dataset used in this analysis is sourced from the U.S. Department of Transpo
 The National Transit Database maintained by the Federal Transit A requires that transit authorities complete a “Major Event Report” when significant safety events occur
 
 This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
+
+
 
 ### Predictor Variables
 
@@ -148,20 +156,5 @@ When discussing feature importance, impurity-based models (used by the three in 
 7. **Visualization & Reporting:**  
 
 
-## 🛠️ Tech Stack
-
-- **Python:** Data cleaning, processing, analysis, and model building.
-- **SQL:** Data querying and management.
-
-
-
-## ⚙️ Getting Started
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/your_username/transit-safety-insights.git
-   cd transit-safety-insights
-2. **Download the Dataset:**
 
 
