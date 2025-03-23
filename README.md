@@ -137,7 +137,7 @@ When discussing feature importance, impurity-based models (used by the three in 
 - **Python:** Data cleaning, processing, analysis, and model building.
 - **SQL:** Data querying and management.
 
-## University of Toronto | Data Science Institute
+## University of Toronto | Data Science Institute Presentation Showcase
 - Our project summarized in 5 minutes is available [here](https://docs.google.com/presentation/d/1demXXfDs7kidJ94kQZ-SZ2-DHwst0ReC_PmsrZXU8-c/edit?usp=sharing)
 
 ## ⚙️ Getting Started
