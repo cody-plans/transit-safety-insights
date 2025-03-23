@@ -124,6 +124,8 @@ Imbalanced settings, Extra Trees may provide more robust performance by identify
 	
 When discussing feature importance, impurity-based models (used by the three in our project) can be biased, particularly in the case of irrelevant or correlated features. As an alternative, permutation importance could be used to evaluate feature importance. It evaluates the decrease in a model’s importance when a feature’s values are randomly shuffled - it is less prone to biases caused by impurity-based methods in models. Importance derived from impurity-based methods can be high even for features that are not predictive of the target variable. 
 
+![image](https://github.com/user-attachments/assets/67ad9b54-d851-445c-9112-42601c98c386)
+
 
 ## Conclusion
 
