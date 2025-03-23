@@ -25,16 +25,7 @@ As part of the Machine Learning Certificate program at the University of Toronto
 5. Understanding Data and Method of Collection
 6. Data preprocessing and Feature Engineering
 7. Modelling Approach
-- Tune Hyperparameters
-- Moddel Training
 8. Findings
-- Model Evaluation
-- Insights
-
-10. **Exploratory Data Analysis (EDA):**  
-11. **Model Building:**  
-12. **Model Fine Tuning & Evaluation:**  
-13. **Visualization & Reporting:**
 
 ## Business Case ##
 Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
