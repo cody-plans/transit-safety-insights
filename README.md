@@ -96,7 +96,6 @@ This dataset consolidates transit-safety reports from multiple agencies. Each re
 | **Non-Transit Vehicle Type**             | A list of vehicle types for non-transit vehicles involved in the event.                                                                                                                                                                                                                 |
 | **Transit Vehicle Manufacturer**         | Identifies the manufacturer of the transit vehicle for collisions.                                                                                                                                                                                                                     |
 | **Total Serious Injuries**               | Sum of the count of all serious injuries for the given event.                                                                                                                                              
-|
 
 A CLI script has been provided to download the dataset into the `data` folder automatically.
 
