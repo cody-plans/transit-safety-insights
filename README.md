@@ -25,7 +25,7 @@ As part of the Machine Learning Certificate program at the University of Toronto
 6. [Insights](#insights)
 
 ## Business Case ##
-Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
+Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events. The data that was used in our analysis are for non-rail safety events which are a substet of [Major Safety Events](https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9/about_data) maintained by the Federal Transit Administration (FTA)
 
 ### 🔍 Research Questions
 What factors are most predictive of a major safety incident occurring?
@@ -35,7 +35,7 @@ To address this, we will implement classification models to determine which vari
 The dataset used in this analysis is sourced from the U.S. Department of Transportation and contains records of major safety events from 2014 to 2024.
 
 ### Objectives
-- Identify critical factors leading to major safety incidents
+- Identify critical factors leading to major non-rail safety incidents
 - Inform safety improvements and resource deployment
 - Support planning to minimize transit disruptions and improve public safety
 
@@ -149,19 +149,35 @@ python scripts/download_data.py
 
 ## Methodology ##
 
-1. Data Acquisition and Exploratory Data Analysis:
-  - Download and inspect the dataset from the source.
-2. Data Cleaning:
-  - Handle missing values, data inconsistencies, and convert data types.
-  - Remove or impute outliers.
-3. Data Processing & Feature Engineering:
-  - Extract relevant features (e.g., time of day, weather conditions, transit type).
-  - Create new variables to capture trends and patterns through feature engineering (e.g. population density) from census data
-4. Model Building:
-  - Classification Models: Identify key factors predicting major safety incidents.
-  - Model Fine Tuning & Evaluation:
-  - Apply cross-validation and hyperparameter tuning.
-5. Evaluate model performance using appropriate metrics.
+### Data Acquisition & Exploratory Data Analysis
+- Downloaded dataset from official source
+- Reviewed structure, completeness, and relevance
+- Scoped analysis to features suitable for machine learning
+
+### Data Cleaning
+- Addressed missing values and data type inconsistencies
+- Removed or imputed outliers to ensure model reliability
+
+### Data Processing & Feature Engineering
+- **Target variable**: Boolean flag for major incidents based on fatality, injury, or damage ≥ $25,000
+- Derived new features (e.g., population density from Census data)
+- Transformed raw variables into usable model inputs
+
+### Model Development
+- Applied multiple classification algorithms:
+  - Logistic Regression
+  - SVM
+  - Naive Bayes
+  - Decision Trees
+  - Random Forests
+  - K-Nearest Neighbors
+  - Neural Networks
+- Used GridSearchCV for hyperparameter tuning and cross-validation
+
+### Evaluation & Interpretation
+- Evaluated using metrics: ROC-AUC
+- Compared feature importance across models
+- Visualized key patterns to support stakeholder insights
 
 ## Findings ##
 ### Model Evaluation
@@ -228,7 +244,8 @@ These insights move us beyond surface-level correlations and toward actionable, 
 - Optimize safety resource deployment based on predictive temporal trends
 Ultimately, this approach enables proactive prevention rather than reactive response—improving safety outcomes for both transit operators and the communities they serve.
 
+##🧾 License & Attribution
 
-
+Data used in this project is publicly available from the U.S. Department of Transportation's National Transit Database. This project was completed as part of the Machine Learning Certificate Program at the University of Toronto's Data Science Institute.
 
 
