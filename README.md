@@ -21,10 +21,20 @@ As part of the Machine Learning Certificate program at the University of Toronto
 1. [Business Case](#business-case)
 2. [Data Description](#data-description)
 3. [Methodology](#methodology)
-4. **Exploratory Data Analysis (EDA):**  
-5. **Model Building:**  
-6. **Model Fine Tuning & Evaluation:**  
-7. **Visualization & Reporting:**
+4. Exploratory Data Analysis
+5. Understanding Data and Method of Collection
+6. Data preprocessing and Feature Engineering
+7. Modelling Approach
+- Tune Hyperparameters
+- Moddel Training
+8. Findings
+- Model Evaluation
+- Insights
+
+10. **Exploratory Data Analysis (EDA):**  
+11. **Model Building:**  
+12. **Model Fine Tuning & Evaluation:**  
+13. **Visualization & Reporting:**
 
 ## Business Case ##
 Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
@@ -36,17 +46,17 @@ To address this, we will implement classification models to determine which vari
 
 The dataset used in this analysis is sourced from the U.S. Department of Transportation and contains records of major safety events from 2014 to 2024.
 
-#### Objectives
+### Objectives
 - Identify critical factors leading to major safety incidents
 - Inform safety improvements and resource deployment
 - Support planning to minimize transit disruptions and improve public safety
 
-#### Assumptions & Risks
+### Assumptions & Risks
 - Dataset has sufficient quality and structure to train accurate models
 - Risk of incomplete or missing data that could affect predictive accuracy
 - No unstructured data is currently being processed that could enhance the model
 
-#### 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 - **Python:** Data cleaning, processing, analysis, and model building.
 - **SQL:** Data querying and management.
