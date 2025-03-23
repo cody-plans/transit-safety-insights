@@ -169,10 +169,10 @@ When discussing feature importance, impurity-based models (used by the three in 
 Our analysis revealed seven predictive variables consistently ranked within the top 10 across all models. These features fall into three key thematic areas—each of which has significant implications for transit safety planning and intervention strategies.
 
 ### 1. Driving Behavior
-####What We Found:
+#### What We Found:
 Indicators such as operator speed, braking patterns, and historical incident involvement emerged as highly predictive of major safety events.
 
-####Why It Matters:
+#### Why It Matters:
 Driving behavior plays a crucial role in transit safety. These findings suggest the use of proactive tools like:
 - Driver behavior monitoring systems
 - Advanced driver assistance systems (ADAS)
@@ -181,33 +181,33 @@ Driving behavior plays a crucial role in transit safety. These findings suggest 
 ####Actionable Insight:
 Transit agencies can implement real-time monitoring and targeted training to address unsafe driving habits before incidents occur.
 
-###2. Population Density
-####What We Found:
+### 2. Population Density
+#### What We Found:
 Incidents are more likely in areas with higher population density, suggesting a correlation with increased pedestrian interaction, traffic complexity, and infrastructure limitations.
 
-####Why It Matters:
+#### Why It Matters:
 Urban environments require tailored safety strategies that address potential issues such as:
 - Congestion management
 - Pedestrian safety infrastructure
 - Vehicle maneuverability and visibility
 
-####Actionable Insight:
+#### Actionable Insight:
 City planners and transit authorities should prioritize high-density corridors for safety upgrades and risk-mitigation technologies.
 
-###3. Time and Day of the Week
+### 3. Time and Day of the Week
 ####What We Found:
 The timing of incidents—by hour, day, and possibly season—was a significant predictor of event likelihood.
 
-####Why It Matters:
+#### Why It Matters:
 Certain time periods, such as weekday rush hours or late-night shifts, may coincide with increased fatigue, traffic volume, or environmental risks.
 
-####Actionable Insight:
+#### Actionable Insight:
 Transit agencies can consider deploying time-aware risk management strategies, such as:
 - Adjusting driver schedules to avoid fatigue
 - Increasing oversight during known high-risk periods
 - Strategically scheduling vehicle maintenance and inspections
 
-###Strategic Implications for Transit Safety
+### Strategic Implications for Transit Safety
 These insights move us beyond surface-level correlations and toward actionable, data-informed safety planning. They suggest that transit agencies, city planners, and public safety organizations can:
 - Target high-risk behaviors through training and technology
 - Focus infrastructure investments in dense, complex transit zones
