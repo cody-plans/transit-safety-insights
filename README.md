@@ -149,6 +149,20 @@ python scripts/download_data.py
 
 ## Methodology ##
 
+1. Data Acquisition and Exploratory Data Analysis:
+- Download and inspect the dataset from the source.
+2. Data Cleaning:
+- Handle missing values, data inconsistencies, and convert data types.
+- Remove or impute outliers.
+3. Data Processing & Feature Engineering:
+- Extract relevant features (e.g., time of day, weather conditions, transit type).
+- Create new variables to capture trends and patterns through feature engineering (e.g. population density) from census data
+4. Model Building:
+- Classification Models: Identify key factors predicting major safety incidents.
+- Model Fine Tuning & Evaluation:
+- Apply cross-validation and hyperparameter tuning.
+5. Evaluate model performance using appropriate metrics.
+
 ## Findings ##
 ### Model Evaluation
 Extra Trees outperformed Bagging Classifier and Random Forest, likely due to its more reliable feature selection and ability to avoid overfitting. Extra Trees achieved the highest ROC-AUC score (0.87) compared to 0.81 for the Bagging Classifier and Random Forest 0.67. This stronger performance may be attributed to Extra Trees’ randomized split selection strategy which tends to reduce variance and overfitting particularly with complex data or imbalance datasets. Random Forest has the lowest ROC-AUC score of the three models, likely due to overfitting or its inability to address the dataset’s complexity.
