@@ -43,7 +43,7 @@ The National Transit Database maintained by the Federal Transit A requires that 
 
 This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
 
-### Key Columns (list what was kept*)
+### Predictor Variables
 
 | Column Name                              | Description                                                                                                                                                                                                                                                                            |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
