@@ -17,11 +17,16 @@ As part of the Machine Learning Certificate program at the University of Toronto
 - **Mychelle Wong**
 - **Nithursan Elamuhilan**
 
-
 ## 📚 Project Overview
+1. **Data Acquisition:**  
+2. **Data Cleaning:**  
+3. **Data Processing & Feature Engineering:**  
+4. **Exploratory Data Analysis (EDA):**  
+5. **Model Building:**  
+6. **Model Fine Tuning & Evaluation:**  
+7. **Visualization & Reporting:**
 
 ## 💼 Business Case
-
 Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events.
 
 ### 🔍 Research Questions
@@ -46,14 +51,10 @@ The dataset used in this analysis is sourced from the U.S. Department of Transpo
 - **Python:** Data cleaning, processing, analysis, and model building.
 - **SQL:** Data querying and management.
 
-
-
 ## Data Description ##
 The National Transit Database maintained by the Federal Transit A requires that transit authorities complete a “Major Event Report” when significant safety events occur
 
 This dataset consolidates transit-safety reports from multiple agencies. Each record captures essential details such as date, time, location, involved vehicles, environmental conditions, and the severity of injuries and fatalities. Combining these data points offers a comprehensive view of transit incidents and provides opportunities for analysis on vehicle operations, safety measures, passenger risk, and other critical factors that can inform decision-making and research on transit system improvements.
-
-
 
 ### Predictor Variables
 
@@ -120,6 +121,7 @@ python scripts/download_data.py
 ## Methodology
 
 ## Findings
+### Model Evaluation
 Extra Trees outperformed Bagging Classifier and Random Forest, likely due to its more reliable feature selection and ability to avoid overfitting. Extra Trees achieved the highest ROC-AUC score (0.87) compared to 0.81 for the Bagging Classifier and Random Forest 0.67. This stronger performance may be attributed to Extra Trees’ randomized split selection strategy which tends to reduce variance and overfitting particularly with complex data or imbalance datasets. Random Forest has the lowest ROC-AUC score of the three models, likely due to overfitting or its inability to address the dataset’s complexity.
 
 The differences in feature importance across the models arise in how they handle feature selection, data complexity, correlated features and overfitting.
@@ -132,28 +134,10 @@ Imbalanced settings, Extra Trees may provide more robust performance by identify
 	
 When discussing feature importance, impurity-based models (used by the three in our project) can be biased, particularly in the case of irrelevant or correlated features. As an alternative, permutation importance could be used to evaluate feature importance. It evaluates the decrease in a model’s importance when a feature’s values are randomly shuffled - it is less prone to biases caused by impurity-based methods in models. Importance derived from impurity-based methods can be high even for features that are not predictive of the target variable. 
 
-![image](https://github.com/user-attachments/assets/02f46b76-963d-4e87-a1dc-d24dd68c53ba) 
-
-![image](https://github.com/user-attachments/assets/d18b0dfc-f89b-4a84-8558-66ba6216f950)
-
-![image](https://github.com/user-attachments/assets/24c8e49c-993c-4d5b-bb8e-5cc7cc4fa7ab)
-
-
-
+### Insights
 ![image](https://github.com/user-attachments/assets/67ad9b54-d851-445c-9112-42601c98c386)
 
 
-## Conclusion
-
-## 📋 Task List & Workflow
-
-1. **Data Acquisition:**  
-2. **Data Cleaning:**  
-3. **Data Processing & Feature Engineering:**  
-4. **Exploratory Data Analysis (EDA):**  
-5. **Model Building:**  
-6. **Model Fine Tuning & Evaluation:**  
-7. **Visualization & Reporting:**  
 
 
 
