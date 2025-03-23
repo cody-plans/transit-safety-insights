@@ -6,6 +6,10 @@
 
 As part of the Machine Learning Certificate program at the University of Toronto’s Data Science Institute, this project allowed us to apply the skills and knowledge gained throughout the program to a real-world problem. We focused on analyzing major safety events within U.S. transit systems to uncover key risk factors and generate actionable insights. This end-to-end project involved data preparation, applying machine learning techniques, and delivering findings to support informed decision-making for stakeholders aiming to enhance transit safety nationwide.
 
+## University of Toronto | Data Science Institute Presentation Showcase
+- Our project summarized in 5 minutes is available
+- Presentaion slide are available [here](https://docs.google.com/presentation/d/1demXXfDs7kidJ94kQZ-SZ2-DHwst0ReC_PmsrZXU8-c/edit?usp=sharing)
+
 ## 👥 Team Members
 
 - **Louis Chuk**
@@ -91,7 +95,19 @@ This dataset consolidates transit-safety reports from multiple agencies. Each re
 | **Transit Vehicle Type**                 | The form of passenger conveyance used for revenue operations (e.g., bus, heavy rail, commuter rail).                                                                                                                                                                                   |
 | **Non-Transit Vehicle Type**             | A list of vehicle types for non-transit vehicles involved in the event.                                                                                                                                                                                                                 |
 | **Transit Vehicle Manufacturer**         | Identifies the manufacturer of the transit vehicle for collisions.                                                                                                                                                                                                                     |
-| **Total Serious Injuries**               | Sum of the count of all serious injuries for the given event.                                                                                                                                                                                                                          |
+| **Total Serious Injuries**               | Sum of the count of all serious injuries for the given event.                                                                                                                                              
+|
+
+A CLI script has been provided to download the dataset into the `data` folder automatically.
+
+### Using the CLI Script
+
+**Script Location:**  
+The download script is located at `scripts/download_data.py`.
+
+**Run the script using python:**  
+```bash
+python scripts/download_data.py
 
 ## Methodology
 
@@ -114,39 +130,20 @@ When discussing feature importance, impurity-based models (used by the three in 
 ## 📋 Task List & Workflow
 
 1. **Data Acquisition:**  
-   - Download and inspect the dataset from the [source](https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9/about_data).
-
 2. **Data Cleaning:**  
-   - Handle missing values, data inconsistencies, and convert data types.
-   - Remove or impute outliers.
-
 3. **Data Processing & Feature Engineering:**  
-   - Extract relevant features (e.g., time of day, weather conditions, transit type).
-   - Create new variables to capture trends and patterns.
-
 4. **Exploratory Data Analysis (EDA):**  
-   - Generate descriptive statistics.
-   - Visualize data distributions, correlations, and trends using graphs and charts.
-
 5. **Model Building:**  
-   - **Regression Models:** Predict the severity of incidents.
-   - **Classification Models:** Identify key factors predicting major safety incidents.
-
 6. **Model Fine Tuning & Evaluation:**  
-   - Apply cross-validation and hyperparameter tuning.
-   - Evaluate model performance using appropriate metrics.
-
 7. **Visualization & Reporting:**  
-   - Create informative visualizations.
-   - Summarize findings and recommend further research directions.
+
 
 ## 🛠️ Tech Stack
 
 - **Python:** Data cleaning, processing, analysis, and model building.
 - **SQL:** Data querying and management.
 
-## University of Toronto | Data Science Institute Presentation Showcase
-- Our project summarized in 5 minutes is available [here](https://docs.google.com/presentation/d/1demXXfDs7kidJ94kQZ-SZ2-DHwst0ReC_PmsrZXU8-c/edit?usp=sharing)
+
 
 ## ⚙️ Getting Started
 
@@ -157,13 +154,4 @@ When discussing feature importance, impurity-based models (used by the three in 
    cd transit-safety-insights
 2. **Download the Dataset:**
 
-A CLI script has been provided to download the dataset into the `data` folder automatically.
 
-### Using the CLI Script
-
-**Script Location:**  
-The download script is located at `scripts/download_data.py`.
-
-**Run the script using python:**  
-```bash
-python scripts/download_data.py
