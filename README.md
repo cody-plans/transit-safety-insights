@@ -247,6 +247,13 @@ These insights move us beyond surface-level correlations and toward actionable, 
 - Optimize safety resource deployment based on predictive temporal trends
 Ultimately, this approach enables proactive prevention rather than reactive response—improving safety outcomes for both transit operators and the communities they serve.
 
+## Team Reflections
+
+- **Louis Chuk**
+- **Stephen Fong**
+- **Mychelle Wong**: [Video link](https://www.canva.com/design/DAGilIzNRQQ/xEVe3XNk7e2oNjEbvOrHSw/watch?utm_content=DAGilIzNRQQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h83aab73d70)
+- **Nithursan Elamuhilan**: [Video link](https://drive.google.com/file/d/1AGSYz4sPkyxhEO5l8TZ7-qn4L4E9RBId/view?usp=drive_link)
+
 ##🧾 License & Attribution
 
 Data used in this project is publicly available from the U.S. Department of Transportation's National Transit Database. This project was completed as part of the Machine Learning Certificate Program at the University of Toronto's Data Science Institute.
