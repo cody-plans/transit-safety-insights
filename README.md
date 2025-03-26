@@ -278,7 +278,7 @@ Ultimately, this approach enables proactive prevention rather than reactive resp
 ## Team Reflections ##
 
 - **Louis Chuk**
-- **Stephen Fong**
+- **Stephen Fong**: [Video link](https://drive.google.com/file/d/1gF8yiay84dWQJyD5f7BqGH-hzRz_lWp1/view?usp=drive_link)
 - **Mychelle Wong**
 - **Nithursan Elamuhilan**: [Video link](https://drive.google.com/file/d/1AGSYz4sPkyxhEO5l8TZ7-qn4L4E9RBId/view?usp=drive_link)
 
