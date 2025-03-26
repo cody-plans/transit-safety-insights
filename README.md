@@ -9,7 +9,6 @@ As part of the Machine Learning Certificate program at the University of Toronto
 ## University of Toronto | Data Science Institute Presentation Showcase
 - Our project summarized in 5 minutes is available
 - Presentaion slide are available [here](https://docs.google.com/presentation/d/1demXXfDs7kidJ94kQZ-SZ2-DHwst0ReC_PmsrZXU8-c/edit?usp=sharing)
-- [Personal Project reflection](https://www.canva.com/design/DAGilIzNRQQ/xEVe3XNk7e2oNjEbvOrHSw/watch?utm_content=DAGilIzNRQQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h83aab73d70)
 
 ## 👥 Team Members
 
@@ -26,14 +25,11 @@ As part of the Machine Learning Certificate program at the University of Toronto
 6. [Insights](#insights)
 
 ## Business Case ##
-Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events. The data that was used in our analysis are for non-rail safety events which are a substet of [Major Safety Events](https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9/about_data) maintained by the Federal Transit Administration (FTA)
+Transportation is the backbone of our communities - it connects peoples to jobs, services and our loved ones. A safe, reliable and efficient transit system supports public safety, boosts the economy and improves everyday life for everyone. In the United States alone, over 98,000 major safety events were reported between 2014 - 2024. To ensure the safety of all those making their daily travels on the transit systems in the US, this project seeks to uncover the key predictors of major safety incidents that occur. Our goal is to support data-driven decisions for stakeholders such as Public Safety Organizations, Transit Authorities, and City Planners by identifying patterns and risk factors that contribute to serious safety events. The data that was used in our analysis are for non-rail safety events which are a substet of [Major Safety Events](https://data.transportation.gov/Public-Transit/Major-Safety-Events/9ivb-8ae9/about_data) maintained by the Federal Transit Administration (FTA).
 
-### 🔍 Research Questions
 What factors are most predictive of a major safety incident occurring?
 
-To address this, we will implement classification models to determine which variables most strongly indicate the likelihood of a major incident. Time permitting, we may also explore regression models to analyze incident severity or frequency. Techniques such as Principal Component Analysis (PCA) will be employed to reduce dimensionality and improve model performance.
-
-The dataset used in this analysis is sourced from the U.S. Department of Transportation and contains records of major safety events from 2014 to 2024.
+To address this, we will implement classification models to determine which variables most strongly indicate the likelihood of a major incident. The dataset used in this analysis is sourced from the U.S. Department of Transportation and contains records of major safety events from 2014 to 2024.
 
 ### Objectives
 - Identify critical factors leading to major non-rail safety incidents
@@ -44,6 +40,11 @@ The dataset used in this analysis is sourced from the U.S. Department of Transpo
 - Dataset has sufficient quality and structure to train accurate models
 - Risk of incomplete or missing data that could affect predictive accuracy
 - No unstructured data is currently being processed that could enhance the model
+
+### 🛠️ Tech Stack
+
+- **Python:** Data cleaning, processing, analysis, and model building.
+- **SQL:** Data querying and management.
 
 ### 🛠️ Tech Stack
 
