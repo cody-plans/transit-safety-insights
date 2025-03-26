@@ -46,11 +46,6 @@ To address this, we will implement classification models to determine which vari
 - **Python:** Data cleaning, processing, analysis, and model building.
 - **SQL:** Data querying and management.
 
-### 🛠️ Tech Stack
-
-- **Python:** Data cleaning, processing, analysis, and model building.
-- **SQL:** Data querying and management.
-
 ## Data Description ##
 The dataset is sourced from the National Transit Database (NTD), which collects Safety and Security (S&S) event data from U.S. transit agencies. Reporting is mandatory for:
 
